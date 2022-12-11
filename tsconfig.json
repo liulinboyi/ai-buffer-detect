@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES2019",
+    "module": "ESNext",
+    "lib": ["ES2019", "DOM"],
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "types": ["vitest/globals"],
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "include": ["src", "tests", "scripts"],
+  "exclude": ["tests/fixtures", "src/*.js"]
+}
