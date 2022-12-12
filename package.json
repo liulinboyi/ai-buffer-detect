@@ -49,11 +49,11 @@
     "lint": "eslint . --ext .vue,.ts,.md,.json --max-warnings 0",
     "server": "http-server ./model"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@tensorflow/tfjs": "^4.1.0",
     "@types/node": "*",
+    "typescript":"^4.7.4",
     "bumpp": "^8.2.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.19.0",

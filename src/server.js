@@ -45,7 +45,7 @@ export const start = () => {
       // console.log(err)
       port++
       count++
-      if (count >= 1) {
+      if (count >= 10) {
         server.close()
         reject(err)
       } else {
